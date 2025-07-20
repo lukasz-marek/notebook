@@ -3,11 +3,22 @@ requires = ["setuptools >= 77.0.3"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "notebook"
+name = "math-notebook"
 dynamic = ["version"]
 requires-python = ">= 3.13"
 
-dependencies = []
+dependencies = [
+    "numpy==2.3.1",
+    "matplotlib==3.10.3",
+    "sympy==1.14.0",
+    "scikit-learn==1.7.1",
+    "pyswip==0.3.3", # requires Prolog installation to work
+    "problog==2.2.7",
+    "pandas==2.3.1",
+    "networkx==3.5",
+    "jupyterlab==4.4.4",
+    "numba==0.61.2"
+]
 
 authors = []
 maintainers = []
