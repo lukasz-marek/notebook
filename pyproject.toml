@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "notebook"
+dynamic = ["version"]
+requires-python = ">= 3.13"
+
+dependencies = []
+
+authors = []
+maintainers = []
+
+description = "Reusable setup for Jupyter Notebooks"
+readme = "README.md"
+
+license-files = ["LICENSE"]
